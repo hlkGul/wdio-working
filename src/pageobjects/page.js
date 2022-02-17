@@ -8,6 +8,6 @@ module.exports = class Page {
     * @param path path of the sub page (e.g. /path/to/page.html)
     */
     open(path) {
-        return browser.url(`https://layout-service-web-playground.modanisa.net/en/`)
+        return browser.url(`https://layout-service-web-playground.modanisa.net/membership/login/?return=%2F`)
     }
 }
